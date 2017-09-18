@@ -38,7 +38,10 @@ const BadGuy = function(name, tagline){
 
 const badDude = new BadGuy("Hans Gruber", "That's a beautiful suit... I'd hate to ruin it.");
 const scaryGuy = new BadGuy("Freddy");
+const hero = new BadGuy("John McClane", "Yippie Kayay Motherfucker.")
 
 console.log(badDude);
 badDude.sayTagLine();
 console.log(scaryGuy);
+console.log(hero);
+hero.sayTagLine();
